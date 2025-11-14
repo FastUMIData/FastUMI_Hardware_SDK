@@ -1,4 +1,4 @@
-# Intefaces for Xvisio Devices
+# Intefaces for Devices
 
 ## 更新Ubuntu发行版，包括获取最新的稳定内核:
 

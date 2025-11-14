@@ -1,4 +1,4 @@
-# ROS2 Wrapper for Xvisio Devices
+# ROS2 Wrapper for Devices
 
 ## Installation Instructions
 
@@ -43,12 +43,12 @@ colcon build  --packages-select xv_ros2_msgs
 colcon build  --packages-select xv_sdk_ros2 --cmake-args -DXVSDK_INCLUDE_DIRS="/usr/include/xvsdk" -DXVSDK_LIBRARIES="/usr/lib/libxvsdk.so"
 ```
 **Note:**
-Please install Xvisio SDK before building.
+Please install SDK before building.
 
 ## Usage Instructions
 
 ### Start the node
-To start the node in ROS2, plug in the Xvisio device, then type the following command:
+To start the node in ROS2, plug in the device, then type the following command:
 
 ```bash
 source /opt/ros/galactic/setup.bash

@@ -1,4 +1,4 @@
-# ROS1 Wrapper for Xvisio Devices
+# ROS1 Wrapper for  Devices
 ## Installation Instructions
 
 The following instructions were verified with ROS1 noetic on **Ubutnu 20.04**.
