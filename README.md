@@ -27,13 +27,14 @@ sdk/				  # 硬件安装包，按交付时间归档版本
 
 1. **安装SDK**
    ```bash
-   #ros1版本
-   sudo -E ./install-ros1.sh script/XXX/XVSDK_focal_amd64_XXX.deb
+   cd script
+   #ros1版本(recommended)
+   sudo -E bash install-ros1.sh ../sdk/XXX/XVSDK_focal_amd64_XXX.deb
    ```
    
    ```bash
    #ros2版本
-   sudo -E ./install-ros2.sh script/XXX/XVSDK_jammy_amd64_XXX.deb
+   sudo -E bash install-ros2.sh ../sdk/XXX/XVSDK_jammy_amd64_XXX.deb
    ```
 
 2. **连接FastUMI**
@@ -44,7 +45,7 @@ sdk/				  # 硬件安装包，按交付时间归档版本
    ```
    
 3. **检查FastUMI状态**
-可通过FastUMI Monitor Tool对设备采集数据进行采样分析，查看设备运行状态是否正常。
+可通过FastUMI Monitor Tool(https://github.com/FastUMIRobotics/FastUMI_Monitor_Tool)对设备采集数据进行采样分析，查看设备运行状态是否正常。
 ---
 
 
